@@ -1,4 +1,4 @@
-export const server = "https://mernfront-df7p.onrender.com/";
+export const server = "https://localhost:3000";
 
 const apiList = {
   login: `${server}/auth/login`,
