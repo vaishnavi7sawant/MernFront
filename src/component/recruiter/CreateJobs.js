@@ -17,7 +17,7 @@ import { SetPopupContext } from "../../App";
 import apiList from "../../lib/apiList";
 
 // Initialize Socket.IO connection
-const socket = io("https://mernfront-df7p.onrender.com/"); // Replace with your server URL
+const socket = io("https://localhost:3000"); // Replace with your server URL
 
 const useStyles = makeStyles((theme) => ({
   body: {
